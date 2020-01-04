@@ -256,6 +256,15 @@ void update_game()
     param0w = screen_get_bmap_addr(curr_x, curr_y);
     param0b = tile;
     param_draw_tile();
+    // draw snake eyes
+    if (curr_dir == DIRL || curr_dir == DIRR) {
+        *((ubyte*)(param0w + 0x200)) &= 0xE7;
+        *((ubyte*)(param0w + 0x500)) &= 0xE7;
+    }
+    else {
+        *((ubyte*)(param0w + 0x300)) &= 0xDB;
+        *((ubyte*)(param0w + 0x400)) &= 0xDB;
+    }
     screen_print_attr(curr_x, curr_y, COLOR_SNAKE);
 
     // mark current position as used
