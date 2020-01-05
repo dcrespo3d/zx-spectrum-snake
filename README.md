@@ -45,6 +45,6 @@ The volume on the phone is set to maximum, and I use the Foobar2000 player for p
 
 ![Load](./doc/load.jpg)
 
-With these settings, the red/cyan bars for the pilot tone have the same width, the load tones are heard clearly thru the Spectrum speaker and the game loads OK.
+With these settings, the red/cyan stripes for the pilot tone have the same width, the load tones are heard clearly through the Spectrum speaker and the game loads OK.
 
 When the red/cyan stripes have different widths, it is usually due to low audio volume, and games may fail to load.
