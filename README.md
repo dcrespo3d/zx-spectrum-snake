@@ -8,8 +8,8 @@ A port of the classic Snake/Tron game for the ZX Spectrum 48K, written in C
 Game features:
 --------------
 
-* Fast, responsive snake movement using WASD keys
-* 9 skill levels ranging from 1 (slow) to 9 (fast)
+* Fast, responsive and precise snake movement using WASD keys
+* 9 speed-based skill levels ranging from 1 (slow) to 9 (fast)
 * Pause key for looking at that notification in your phone
 
 * * *
@@ -47,4 +47,4 @@ The volume on the phone is set to maximum, and I use the Foobar2000 player for p
 
 With these settings, the red/cyan bars for the pilot tone have the same width, the load tones are heard clearly thru the Spectrum speaker and the game loads OK.
 
-When the red/cyan bars have different widths, it is usually due to low audio volume, and games may fail to load.
+When the red/cyan stripes have different widths, it is usually due to low audio volume, and games may fail to load.
