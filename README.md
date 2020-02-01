@@ -13,11 +13,24 @@ Game features:
 * Pause key for looking at that notification in your phone
 
 * * *
+
+Download:
+---------
+
+In the [RELEASES](https://github.com/dcrespo3d/zx-spectrum-snake/releases) page there are .TAP / .TZX files available for use in an emulator (such as [FUSE](http://fuse-emulator.sourceforge.net/) and many others)
+
+I have also included a .WAV file for loading on a REAL spectrum (see below)
+
+* * *
+
+Compiling the source code:
+--------------------------
+
 This game has been developed for the Sinclair ZX Spectrum 48K using the wonderful z88dk zcc C compiler.
 
 https://www.z88dk.org/
 
-z88dk is multiplatform, but I have developed this project on Windows 10 using Visual Studio Code as IDE, and compiling from the command line (CMD).
+z88dk is multiplatform, but I have developed this project on Windows 10 using Visual Studio Code as IDE, and compiling from the command line (CMD). Even if I don't include scripts for other platforms, it should be quite straightforward to compile these sources on a different platform.
 
 I have used [version 1.99C](https://github.com/z88dk/z88dk/releases/tag/v1.99c) of z88dk.
 
@@ -33,6 +46,10 @@ The compiler generates a .TAP file ready for opening in an emulator.
 I have used [Tapir 1.0](http://live.worldofspectrum.org/files/download/85e494512c1511c) for generating a .WAV file and load the game into a REAL spectrum.
 
 * * *
+
+Loading on a REAL spectrum
+--------------------------
+
 ![Real Spectrum](./doc/speccy-snake.jpg)
 
 Running on a REAL Spectrum!!!
