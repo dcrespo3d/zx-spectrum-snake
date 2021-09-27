@@ -5,6 +5,8 @@
 // (C) 2019, 2020 David Crespo - https://github.com/dcrespo3d/zx-spectrum-snake
 //
 ////////////////////////////////////////////////////////////////////////////////
+#include "types.h"
+#include "colors.h"
 #include "menu.h"
 #include "screen.h"
 #include "params0.h"
