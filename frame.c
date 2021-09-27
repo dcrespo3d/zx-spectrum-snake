@@ -5,6 +5,8 @@
 // (C) 2019, 2020 David Crespo - https://github.com/dcrespo3d/zx-spectrum-snake
 //
 ////////////////////////////////////////////////////////////////////////////////
+#include "types.h"
+#include "screen.h"
 #include "frame.h"
 
 extern ubyte frame_corner_tl, frame_corner_tr, frame_corner_bl, frame_corner_br;
